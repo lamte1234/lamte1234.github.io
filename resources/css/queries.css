@@ -1,0 +1,95 @@
+/*-----1200px------*/
+@media only screen and (max-width: 1200px){
+    /*-----about-me------*/
+    .about-me-heading{
+       top: 10%;
+       right: 50%;
+       text-align: center;
+    }
+
+    .info ul{
+        margin-top: 150;
+        margin-right: 250;
+    }
+
+    /*---concern-----*/
+    .concern{
+        margin-left: 25%;
+    }
+
+
+
+    /*-----badges-----*/
+    .show-badges{
+        margin-left: 5%;
+    }
+
+    /*---contact-----*/
+    .show-contact{
+        margin-left: 24%;
+    }
+}
+
+/*-----1023px---------*/
+@media only screen and (max-width: 1023px){
+    /*----header-----*/
+    header{
+        height: 28%;
+    }
+
+    /*------about-me------*/
+    .about-me-heading{
+        top: 20%;
+    }
+    .info ul{
+        margin-right: 200;
+    }
+
+    /*---concern-----*/
+    .concern{
+        margin-left: 13%;
+    }
+
+    /*-----badges-----*/
+    .show-badges{
+        margin-left: 0%;
+        margin-right: 60%;
+    }
+
+    /*----contact----*/
+    .show-contact{
+        margin-left: 20%;
+    }
+}
+
+/*-------767px-------*/
+@media only screen and (max-width: 767px){
+    /*-----about-me-----*/
+    .info ul{
+        margin-right: 50;
+    }
+
+    /*-----concern------*/
+    .concern {
+        margin-left: 2%;
+    }
+
+    /*---badges-----*/
+    .show-badges li{
+        margin-left: 85%;
+    }
+
+    /*---contact-----*/
+    .logo-contact,
+    .fa-angle-double-up{
+        font-size: 25px;
+    }
+    .show-contact {
+        margin-left: 10%;
+    }
+}
+
+/*------480px-------*/
+@media only screen and (max-width: 480px){
+
+}
